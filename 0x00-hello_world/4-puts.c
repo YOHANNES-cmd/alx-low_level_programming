@@ -1,10 +1,8 @@
-#include <stdio.h>
+#include <stdio.hi>
 
 /**
  *
  *  * main - Entry point
- *
- *   *
  *
  *    * Return: Always 0 (Success)
  *
