@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * Main- Entry point
+ * main- Entry point
  * @void: Null value
  *
  * Description: print alphabet lowercase
  * Return: zero value
  */
+
 int main(void)
 {
 	char c, b;
