@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main- Entry point
  * @void: Null value
@@ -6,6 +7,7 @@
  * Description: print numbers from 0 to 9
  * return: zero value
  */
+
 int main(void)
 {
 int n;
