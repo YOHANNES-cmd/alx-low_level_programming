@@ -4,14 +4,18 @@
  * print_numbers - entry point
  *
  * Description: Prints the numbers with _putchar
+ * 0 to 9
  *
- * Return: void
+ * Return: return nothing
  */
+
 void print_numbers(void)
 {
-	int c;
+	int number = 48;
 
-	for (c = 0; c < 10; c++)
-		_putchar(x + '0');
-	_putchar('\n');
+	for (number = 48; number < 58; number++)
+	{
+		_putchar(number);
+	}
+	_putchar(10);
 }
