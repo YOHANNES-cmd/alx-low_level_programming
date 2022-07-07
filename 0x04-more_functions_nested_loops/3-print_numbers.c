@@ -7,10 +7,10 @@
 */
 void print_numbers(void)
 {
-int c = 48;
-for (c = 48; c < 58; c++)
+int number = 48;
+for (number = 48; number < 58; number++)
 {
-_putchar(c);
+_putchar(number);
 }
 _putchar(10);
 }
