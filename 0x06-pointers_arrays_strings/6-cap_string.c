@@ -5,7 +5,7 @@
  *
  * Return: string capitalized
  */
-char *cap_string(char *entry)
+char *cap_string(char *s)
 {
 	int count;
 
