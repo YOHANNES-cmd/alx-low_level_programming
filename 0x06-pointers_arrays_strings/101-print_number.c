@@ -1,11 +1,9 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 /**
- * print_number - prints an integer.
- * only using the putchar function.
- * noarrays and pointers
- * @n: integer to be printed
+ * print_number - prints an integer only using the putchar function
  *
+ * @n: integer to be printed
  * Return: void
  */
 void print_number(int n)
@@ -15,13 +13,12 @@ void print_number(int n)
 	num = n;
 	if (n < 0)
 	{
-		putchar(45);
+		_putchar(45);
 		num = -n;
 	}
-
 	if (num / 10)
 	{
 		print_number(num / 10);
 	}
-	putchar((num % 10) + '0');
+	_putchar((num % 10) + '0');
 }
