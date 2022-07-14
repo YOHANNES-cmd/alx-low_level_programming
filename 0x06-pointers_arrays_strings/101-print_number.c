@@ -1,6 +1,5 @@
 #include "main.h"
-#include <unistd.h>
-#include <stdio.h>
+
 /**
  * print_number - prints an integer only using the putchar function
  *
