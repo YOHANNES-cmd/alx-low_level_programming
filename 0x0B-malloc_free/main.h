@@ -11,4 +11,6 @@ char *create_array(unsigned int size, char c);
 int **alloc_grid(int width, int height);
 char *argstostr(int ac, char **av);
 char **strtow(char *str);
+int len(char *str);
+int num_words(char *str);
 #endif
