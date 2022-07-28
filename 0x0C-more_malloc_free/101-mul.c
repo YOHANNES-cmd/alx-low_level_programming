@@ -11,7 +11,7 @@
  */
 void _is_zero(char *argv[])
 {
-	 unsigned int i, isn1 = 1, isn2 = 1;
+	int i, isn1 = 1, isn2 = 1;
 
 	for (i = 0; argv[1][i]; i++)
 		if (argv[1][i] != '0')
@@ -43,7 +43,7 @@ void _is_zero(char *argv[])
  */
 char *_initialize_array(char *ar, int lar)
 {
-	 unsigned int i = 0;
+	int i = 0;
 
 	for (i = 0; i < lar; i++)
 		ar[i] = '0';
@@ -61,7 +61,7 @@ char *_initialize_array(char *ar, int lar)
  */
 int _checknum(char *argv[], int n)
 {
-	unsigned int ln;
+	int ln;
 
 	for (ln = 0; argv[n][ln]; ln++)
 		if (!isdigit(argv[n][ln]))
@@ -83,7 +83,7 @@ int _checknum(char *argv[], int n)
  */
 int main(int argc, char *argv[])
 {
-	unsigned int ln1, ln2, lnout, add, addl, i, j, k, ca;
+	int ln1, ln2, lnout, add, addl, i, j, k, ca;
 	char *nout;
 
 	if (argc != 3)
