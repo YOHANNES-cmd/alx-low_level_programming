@@ -1,12 +1,10 @@
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
- * op_add - ...
- * @a: ...
+ * op_add - ..
+ * @a: ..
  * @b: ...
- *
  * Return: ...
  */
 int op_add(int a, int b)
@@ -70,6 +68,5 @@ int op_mod(int a, int b)
 		printf("Error\n");
 		exit(100);
 	}
-
 	return (a % b);
 }
