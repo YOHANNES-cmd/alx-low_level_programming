@@ -1,13 +1,13 @@
 ## **0x10. C - VARIADIC FUNCTIONS**
 
-0-sum_them_all.c:
+### *0-sum_them_all.c:*
 
 Write a function that returns the sum of all its parameters.
 
 Prototype: int sum_them_all(const unsigned int n, ...);
 If n == 0, return 0
 
-1-print_numbers.c:
+### *1-print_numbers.c:*
 
 Write a function that prints numbers, followed by a new line.
 
@@ -18,7 +18,7 @@ You are allowed to use printf
 If separator is NULL, don’t print it
 Print a new line at the end of your function
 
-2-print_strings.c:
+### *2-print_strings.c:*
 
 Write a function that prints strings, followed by a new line.
 
@@ -31,7 +31,7 @@ If one of the string is NULL, print (nil) instead
 Print a new line at the end of your function
 
 
-3-print_all.c:
+### *3-print_all.c:*
 
 Write a function that prints anything.
 
