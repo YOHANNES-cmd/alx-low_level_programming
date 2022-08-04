@@ -1,4 +1,4 @@
-##***0x10. C - VARIADIC FUNCTIONS***##
+**## 0x10. C - VARIADIC FUNCTIONS**
 
 0-sum_them_all.c:
 
