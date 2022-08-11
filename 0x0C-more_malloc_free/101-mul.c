@@ -6,7 +6,6 @@
 #include <stdio.h>
 #include <ctype.h>
 >>>>>>> 84dd6d658cec079ff787051ebc01420e4c05e7fb
-
 /**
  * _is_zero - determines if any number is zero
  * @argv: argument vector.
