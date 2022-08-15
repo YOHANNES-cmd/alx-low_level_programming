@@ -16,17 +16,18 @@
 | [6-pop_listint.c](6-pop_listint.c) |  function that deletes the head node of a listint_t linked list, and returns the head node’s data (n). |
 | [7-get_nodeint.c](7-get_nodeint.c) | function that returns the nth node of a listint_t linked list. |
 | [8-sum_listint.c](8-sum_listint.c) |  function that returns the sum of all the data (n) of a listint_t linked list. |
-| [9-insert_nodeint.c](9-insert_nodeint.c) function that inserts a new node at a given position. |
-| [10-delete_nodeint.c](10-delete_nodeint.c)  function that deletes the node at index index of a listint_t linked list. |
+| [9-insert_nodeint.c](9-insert_nodeint.c) | function that inserts a new node at a given position. |
+| [10-delete_nodeint.c](10-delete_nodeint.c) | function that deletes the node at index index of a listint_t linked list. |
 
 
 
 ### Advance Tasks
 | folder | Description |
 | ------ | ------ |
-| [100-first.c](100-first.c) |  function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed|
-| [101-hello_holberton.asm](101-hello_holberton.asm) | Write a 64-bit program in assembly that prints Hello, Holberton, followed by a new line.|
-
+| [100-reverse_listint.c](100-reverse_listint.c) |  |
+| [101-print_listint_safe.c](101-print_listint_safe.c) | |
+| [102-free_listint_safe.c](102-free_listint_safe.c) | |
+| [103-find_loop.c](103-find_loop.c) | |
 ## Author
 ​
 [@Yohannes Kanko](@YOHANNES-cmd)
